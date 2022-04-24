@@ -1,0 +1,21 @@
+<?php
+$check= readline('Enter the Input: ');
+switch($check){
+    case '0';
+    echo 'The Number Is True';
+    break;
+
+    case '1';
+    echo 'The Number Is False';
+    break;
+
+    case '';
+    echo 'Enter Any Value';
+    break;
+
+    default:
+     echo 'Enter 0 Or 1' ; 
+
+}
+
+?>
